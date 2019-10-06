@@ -15,11 +15,8 @@ services:
  
   app:
     restart: always
-    build: ./juneau-petstore-server
-    working_dir: /juneau-petstore-server
-    volumes:
-      - ./juneau-petstore-server:/juneau-petstore-server
-      - ~/.m2:/root/.m2
+    build: ./
+    working_dir: /
     expose:
       - "8080"
-    command: mvn clean spring-boot:run
+    command: mvn clean install -Drat.skip=true package
