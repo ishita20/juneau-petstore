@@ -1,5 +1,6 @@
-FROM maven:3.6.0-jdk-11-slim
+FROM maven:3.6.0-jdk-8-slim
 VOLUME /tmp
-COPY . /server
-WORKDIR /server/juneau-petstore-server
+COPY . /tmp/juneau-petstore
+WORKDIR /tmp/juneau-petstore/juneau-petstore-server
+EXPOSE 5000
 ENTRYPOINT ["mvn", "spring-boot:run"]
