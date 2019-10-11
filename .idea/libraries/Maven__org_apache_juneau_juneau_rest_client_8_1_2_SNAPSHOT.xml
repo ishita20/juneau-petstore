@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.juneau:juneau-rest-client:8.1.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/juneau/juneau-rest-client/8.1.2-SNAPSHOT/juneau-rest-client-8.1.2-20191009.160252-5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/juneau/juneau-rest-client/8.1.2-SNAPSHOT/juneau-rest-client-8.1.2-20191009.160252-5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/juneau/juneau-rest-client/8.1.2-SNAPSHOT/juneau-rest-client-8.1.2-20191009.160252-5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
